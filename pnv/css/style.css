@@ -1,0 +1,48 @@
+body{
+    padding:0;
+    margin: 0;
+    font-family: sans-serif;
+}
+nav{
+    background: rgb(134, 219, 134);
+    padding:20px;
+}
+nav ul {
+    background:rgb(218, 253, 218);
+    list-style: none;
+    display:flex;
+    border-radius: 10px;
+}
+nav ul li{
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:green;
+}
+main{
+    background:rgb(125, 233, 125);
+    padding:50px;
+}
+main h1{
+    padding:10px;
+    color:white;
+    text-align: center;
+}
+aside{
+    background:rgb(139, 236, 139);
+    height: 60vh;
+    width: 25%;
+}
+.content{
+    background:rgb(136, 248, 136);
+    width: 75%;
+}
+footer{
+    background:rgb(116, 240, 116);
+    padding: 20px;
+}
+.body-content{
+    display: flex;
+
+}
